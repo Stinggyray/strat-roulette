@@ -1,0 +1,33 @@
+{
+  "name": "stinggy.com",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss static/css/tailwind.css -o static/css/style.css",
+    "server:css": "cross-env TAILWIND_MODE=watch postcss static/css/tailwind.css -o static/css/style.css --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stinggyray/stinggy.com.git"
+  },
+  "author": "sting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stinggyray/stinggy.com/issues"
+  },
+  "homepage": "https://github.com/Stinggyray/stinggy.com#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-minify": "^0.5.1",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<style>
+</style>
+
+<script>
+	let strats = {{{strats}}};
+	function resetDifficulty() {
+		document.getElementById("strat").classList.remove("easy", "med", "hard", "pistol");
+	}
+
+	function setStrat(side, difficulty) {
+		resetDifficulty();
+		document.getElementById("strat").classList.add(difficulty);
+		let availableStrats = strats[difficulty][side];
+		let entries = Object.entries(availableStrats);
+		let strat = entries[Math.floor(Math.random() * entries.length)];
+		document.getElementById("strat-name").innerHTML = strat[0];
+		document.getElementById("strat-desc").innerHTML = strat[1];
+	}
+</script>
+
+<html lang="en">
+{{> head }}
+<body>
+<div class="bg-gray-900 w-11/12 mx-auto my-5 rounded-md text-gray-300 text-center p-5">
+	<h1 class="text-2xl">Stinggy's Strat Roulette</h1>
+	<p class="text-md">Welcome to hell. I will be your host.</p>
+</div>
+<div class="bg-gray-800 w-11/12 mx-auto my-5 rounded-md text-gray-300 text-center p-5 h-60">
+	<h1 class="text-2xl">Your Current Strat</h1>
+	<div class="strat mt-4" id="strat">
+		<h1 class="text-4xl mb-2" id="strat-name">N/A</h1>
+		<p class="text-xl text-white" id="strat-desc">Description</p>
+	</div>
+</div>
+
+<div class="w-11/12 mx-auto my-5 text-gray-300 flex">
+	<div class="flex-1 bg-gray-800 rounded-md mr-5 p-5">
+		<h1 class="text-2xl mb-3 text-center w-full">Attackers</h1>
+		<button onclick="setStrat('atk', 'easy')" class="rounded-md border-gray-600 border-2 text-lime-400 w-full text-xl h-16 mb-2">Mostly Alright</button>
+		<button onclick="setStrat('atk', 'med')" class="rounded-md border-gray-600 border-2 text-yellow-400 w-full text-xl h-16 mb-2">Kinda Hard</button>
+		<button onclick="setStrat('atk', 'hard')" class="rounded-md border-gray-600 border-2 text-red-400 w-full text-xl h-16">WTF?</button>
+	</div>
+	<div class="flex-1 bg-gray-800 rounded-md p-5">
+		<h1 class="text-2xl mb-3 text-center w-full">Defenders</h1>
+		<button onclick="setStrat('def', 'easy')" class="rounded-md border-gray-600 border-2 text-lime-400 w-full text-xl h-16 mb-2">Mostly Alright</button>
+		<button onclick="setStrat('def', 'med')" class="rounded-md border-gray-600 border-2 text-yellow-400 w-full text-xl h-16 mb-2">Kinda Hard</button>
+		<button onclick="setStrat('def', 'hard')" class="rounded-md border-gray-600 border-2 text-red-400 w-full text-xl h-16">WTF?</button>
+	</div>
+</div>
+</body>

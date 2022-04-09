@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Segoe UI;
+}
+
+body {
+	@apply bg-gray-700;
+}
+
+.strat.hard > h1 {
+	@apply text-red-400;
+}
+.strat.med > h1 {
+	@apply text-yellow-400;
+}
+.strat.easy > h1 {
+	@apply text-lime-400;
+}
+.strat.pistol > h1 {
+	@apply text-purple-400;
+}
