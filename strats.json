@@ -3,11 +3,15 @@
     "all": {
       "Nerf This": "Your whole team may only right click with the Classic (no other guns are allowed).",
       "It's High Noon": "Your whole team must use sheriffs, and once you shoot a single bullet, you must spam click until the whole mag is expended.",
-      "Deranged": "Your whole team must use Shorty. You can't pick up any other guns.",
       "Straight Flush": "Your entire team must buy different guns (so, 1 of each pistol).",
-      "Mobile Turret": "Your entire team must stay right next to each other (in a blob) and buy Frenzys.",
       "Precise Gunplay": "Your entire team must buy Frenzys and keep running the entire round.",
       "Secret Mission": "Your entire team must buy Ghosts, and give no comms the whole round (no pings, talking on Discord, or in game communication). In addition, you cannot run - only walk or crouch."
+    },
+    "def": {
+      "Deranged": "Your whole team must use Shorty. You can't pick up any other guns."
+    },
+    "atk": {
+      "Mobile Turret": "Your entire team must stay right next to each other (in a blob) and buy Frenzys."
     }
   },
   "easy": {
@@ -27,14 +31,16 @@
       "What The Heck Is Going On": "Disable your HUD, and change your handedness. (General -> Other -> Hide User Interface In Game, and General -> Other -> First Person Handedness)",
       "Big Spender": "Your entire team must spend ALL their money. (Buy a bajillion Shortys if you need to.)",
       "The Ocean Special": "Give terrible callouts. Call out places that don't exist, real-life cities, Tilted Towers, or anything else. Just make sure your callouts are never correct.",
-      "The PS Special": "You must all hum a tune the entire round."
+      "Capture the Flag": "You cannot win the round until everyone on your team has stepped in the enemy's spawnpoint (no planting/defusing the spike or killing the last enemy).",
+      "The Emma Special II": "You must say \"Hear me out\" before making any comm.",
+      "Crackhead Mode": "You must play like a crackhead this round. (For reference, this means like PROD - whip your crosshair left and right while moving, entry like an idiot, and flick at everything.)",
+      "The Zoo": "You can only communicate using animal noises."
     },
     "atk": {
       "Literal Cancer": "Everyone must buy all utility they can. Then, you must pick a site to rush, then spam every single piece of utility you have (ultimates optional) onto it and take it.",
       "Seeya": "Everyone must buy all utility they can. Then, you must pick a site, spam all your utility (except ultimates) onto it, then leave for a different site.",
       "Chokepoint": "Your entire team must rush the following chokepoint for each map:\nBreeze: Halls, Ascent: Catwalk to Tree, Icebox: Tube, Haven: Garage, Fracture: B Arcade -> Tower, Bind: Showers, Split: Mid -> Ropes",
-      "Capture the Flag": "You must gain control of the enemy's spawn before planting the spike.",
-      "Joke's Over, You're Dead": "Your entire team must say \"Joke's over, you're dead\" in All chat at once, then all rush onto a site at once. (Creating space, amirite?)"
+      "Joke's Over, You're Dead": "Your entire team must say \"Joke's over, you're dead\" in All chat at once, then all rush onto a site at once."
     },
     "def": {
       "Judgmental": "Your whole team must buy Judges, and camp corners with them. (I feel bad for the other team.)"
@@ -47,7 +53,6 @@
       "Oversensitive": "You must multiply your sensitivity (in Settings -> Aim Sensitivity) by your position on the leaderboard. Bottom frag multiplies by 1x (unchanged), 2nd to bottom multiples by 2x, etc. (top frag multiples their sensitivity by 5)",
       "Toxic II": "Once you get a kill, you cannot shoot again until you t-bag the body. (You need to crouch on it at least 5 times.)",
       "I Didn't Take Economics Class": "One player must buy your whole team guns (no requesting). Nobody else can buy any guns (abilities are fine though.)",
-      "Get Down, Mr. President": "Your whole team must elect a president, who cannot buy any guns or use any abilities (knife only). Then, you must protect the President for the whole round (if they die, your team cannot use guns for the rest of the round).",
       "Bravo Six, Going Dark": "Your entire team cannot communicate in any way this round (no talking on Discord, no pings, no in-game comms)",
       "Ammo Depot": "Your current bottom frag is the only person who can reload any gun this round. (If you reload by accident, immediately drop your gun and you can't pick it back up.)",
       "My Headset Isn't Working": "You must set Master Volume to 0 for the round, and you cannot walk - only run, crouch or stay still. (You can still talk on Discord.)",
@@ -57,11 +62,17 @@
       "Social Distancing": "No two players may be in the same callout area at the same time.",
       "Covert Operation": "You are only allowed to use silenced guns (Ghost, Specter, Phantom). In addition, everyone must whisper in comms this round, and running is not allowed (only walking or crouching).",
       "I Got Mine": "Once you get a kill, you must use Classic only for the rest of the round.",
-      "The Michael Jackson": "You can only move backwards. In addition, anytime you shoot, you must say a Michael Jackson filler word, such as \"OW!!\", \"shamone\", or \"hee hee\"."
+      "The Floor is Lava": "You must be constantly jumping if you're not standing on top of an object or planting. (This means you can only stop jumping while on top of a crate, a box, a counter, a railing, etc.)",
+      "The Ethan Special": "If someone on your team dies, everyone must stop shooting for the next 5 seconds (no refragging/trading). In addition, you cannot entry unless you are walking.",
+      "Foot Fetish": "You must kill all enemies with leg shots only. If you kill one with a non-leg shot by accident, drop your guns and use knife only for the rest of the round."
     },
     "atk": {
       "Crouching Tiger Hidden Dragon": "Your whole team must crouch the whole round.",
+      "Get Down, Mr. President": "Your whole team must elect a president, who cannot buy any guns or use any abilities (knife only), and hold the Spike. Then, you must protect the President for the whole round (if they die, your team cannot use guns for the rest of the round).",
       "So Heavy": "The player with the Spike must hold it in their hand and crouch. You may only throw the spike directly downwards (because it's too heavy to throw)."
+    },
+    "def": {
+
     }
   },
   "hard": {
@@ -72,17 +83,15 @@
       "Checkmate Liberals": "You can only turn right for this round. Turning/looking to the left is not allowed.",
       "I'm a Ballerina": "You must do a 360 every 5 seconds. You must also do a 360 before taking any gunfight.",
       "Incredibly Precise Gunplay": "You must buy a sniper rifle, and keep running the whole round (except while planting or defusing). You cannot use your pistol - however, you CAN pick up the other team's guns (and run and gun with them). You can also scope (it probably won't help though).",
-      "Butterfingers": "You must immediately drop your gun after shooting each bullet. No sniper rifles.",
+      "Butterfingers": "You must immediately drop your gun after shooting each bullet. No sniper rifles. (This can also be accomplished by binding your 2nd Drop Weapon bind to your primary fire key. However, if you do that, you must still drop your gun if you alt fire (like with a Classic or Bucky.)",
       "The Hero": "You may only buy/use one gun. Everyone else must use knives (no pistols). You cannot pick up the enemy team's guns - only your one gun.",
-      "I'll Crabwalk Next Time, Make It Easier For Ya": "You can only crabwalk this round. (This means you must always be crouched, and you can only use the A and D keys to strafe - no W and S.) In addition, you must only use Ghost this round (in true Thrifty fashion. Skye would be proud.) (You are allowed to pick up enemy guns and use them.)",
-      "The Sting Special": "You are only allowed to shoot guns while airborne (that is, on a zipline/rope or falling / jumping).",
-      "The Attack Helicopter": "You must buy an Odin or Ares, and constantly spin around in circles while shooting. You cannot use any other guns."
+      "The Sting Special": "You are only allowed to shoot guns while airborne (that is, on a zipline/rope or falling / jumping)."
     },
     "atk": {
-      "The Emma Special": "Your team must pick a single site, then all sit on that site with Bucky only. (You can rotate if they don't go there. Good luck though.)"
+      "The Flaw Special": "Your whole team must buy stingers, and rush any site. ADSing is not allowed."
     },
     "def": {
-      "The Flaw Special": "Your whole team must buy stingers, and rush site. ADSing is not allowed."
+      "The Emma Special": "Your team must pick a single site, then all sit on that site with Bucky only. (You can rotate if they don't go there. Good luck though.)"
     }
   }
 }
