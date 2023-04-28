@@ -38,7 +38,8 @@
       "OoOoOoOoOo": "Only dead players may speak. (Preferably spookily.)",
       "Please Help Me": "Everyone must do their best imitation of a VALORANT accent. (On god, actually braindead, no cap, literally trolling, in an upwards inflection)",
       "You're Welcome": "You cannot crouch spray this round. If you do accidentally, look down and hang your head in shame for the rest of the round (you cannot shoot).",
-      "WHAT IS GOING ON???": "Join the other team's VC for this round."
+      "WHAT IS GOING ON???": "Join the other team's VC for this round.",
+      "The Vince Special": "You must attempt to convince your teammates to do the worst plays imaginable. 1HP and fighting long? Go for the knife!"
     },
     "atk": {
       "Literal Cancer": "Everyone must buy all utility they can. Then, you must pick a site to rush, then spam every single piece of utility you have (ultimates optional) onto it and take it.",
@@ -73,8 +74,7 @@
       "I Only Need One": "You can only use one clip of your gun (NO RELOADING). Once it's spent, you cannot fire any more guns for the rest of the round.",
       "Strict Discipline": "Your top frag is now The Czar. You must ask (AND RECEIVE) permission from them before reloading, changing weapons, or using an ability. If you forget, you can only use the Classic for the rest of the round. (If you're the czar, I suggest saying no.)",
       "Journey of Self Discovery": "Everyone on your team must lurk (no playing together).",
-      "The Kyle Special": "Cap your FPS at 20.",
-      "The Vince Special": "You must attempt to convince your teammates to do the worst plays imaginable. 1HP and fighting long? Go for the knife!"
+      "The Kyle Special": "Cap your FPS at 20."
     },
     "atk": {
       "Crouching Tiger Hidden Dragon": "Your whole team must crouch the whole round, EXCEPT one person, who can only run the whole round (or stay still).",
