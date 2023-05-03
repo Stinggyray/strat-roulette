@@ -4,8 +4,9 @@
 
 <script>
 	let strats = {{{strats}}};
+	let comps = {{{comps}}};
 	function resetDifficulty() {
-		document.getElementById("strat").classList.remove("easy", "med", "hard", "pistol");
+		document.getElementById("strat").classList.remove("easy", "med", "hard", "pistol", "comp");
 	}
 
 	function setStrat(side, difficulty) {
@@ -16,6 +17,15 @@
 		let strat = entries[Math.floor(Math.random() * entries.length)];
 		document.getElementById("strat-name").innerHTML = strat[0];
 		document.getElementById("strat-desc").innerHTML = strat[1];
+	}
+
+	function setComp() {
+		resetDifficulty();
+		document.getElementById("strat").classList.add("comp");
+		let entries = Object.entries(comps);
+		let comp = entries[Math.floor(Math.random() * entries.length)];
+		document.getElementById("strat-name").innerHTML = comp[0];
+		document.getElementById("strat-desc").innerHTML = comp[1];
 	}
 </script>
 
@@ -49,6 +59,9 @@
 		<button onclick="setStrat('def', 'med')" class="rounded-md border-gray-600 border-2 text-yellow-400 w-full text-xl h-16 mb-2">Kinda Hard</button>
 		<button onclick="setStrat('def', 'hard')" class="rounded-md border-gray-600 border-2 text-red-400 w-full text-xl h-16">WTF?</button>
 	</div>
+</div>
+<div class="w-11/12 bg-gray-800 mx-auto my-5 text-gray-300 flex rounded-md">
+	<button onclick="setComp()" class="rounded-md border-gray-600 border-2 text-pink-600 w-full text-xl h-16">Roll Team Comp</button>
 </div>
 <div class="bg-gray-800 w-11/12 mx-auto my-5 rounded-md text-gray-300 text-center p-5">
 	<p>Suggested Game Format:</p>

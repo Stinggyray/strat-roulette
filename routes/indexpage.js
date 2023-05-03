@@ -1,4 +1,5 @@
 let strats = require("../strats.json");
+let comps = require("../comps.json");
 
 ["easy", "med", "hard", "pistol"].forEach(function(diff) {
   ["atk", "def"].forEach(function(side) {
@@ -14,6 +15,7 @@ module.exports.set = function (app) {
 		res.render('index', {
 			title: "Stinggy's Strat Roulette",
 			strats: JSON.stringify(strats),
+			comps: JSON.stringify(comps),
 			metadata: {
 				description: "Sting's Valorant Strat Roulette. Welcome to hell.",
 				og_title: "Stinggy's Strat Roulette",

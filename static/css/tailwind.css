@@ -22,3 +22,6 @@ body {
 .strat.pistol > h1 {
 	@apply text-purple-400;
 }
+.strat.comp > h1 {
+	@apply text-pink-600
+}

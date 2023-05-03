@@ -831,12 +831,6 @@ video {
 .h-4 {
 	height: 1rem;
 }
-.min-h-\[60\] {
-	min-height: 60;
-}
-.min-h-\[60rem\] {
-	min-height: 60rem;
-}
 .min-h-\[15rem\] {
 	min-height: 15rem;
 }
@@ -1500,6 +1494,10 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(248, 113, 113, var(--tw-text-opacity));
 }
+.text-pink-600 {
+	--tw-text-opacity: 1;
+	color: rgba(219, 39, 119, var(--tw-text-opacity));
+}
 .underline {
 	text-decoration: underline;
 }
@@ -1723,6 +1721,10 @@ body {
 .strat.pistol > h1 {
 	--tw-text-opacity: 1;
 	color: rgba(167, 139, 250, var(--tw-text-opacity));
+}
+.strat.comp > h1 {
+	--tw-text-opacity: 1;
+	color: rgba(219, 39, 119, var(--tw-text-opacity));
 }
 .hover\:font-bold:hover {
 	font-weight: 700;

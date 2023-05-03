@@ -23,7 +23,7 @@
       "Gotta Catch 'Em All": "The only word you can say this round is your agent's name.",
       "Sensory Overload": "Your entire team must narrate constantly everything they are doing.",
       "The Terp Special": "Whenever you die, you must say what you should have been doing instead. Bonus points for starting your sentence with \"I actually don't...\"!",
-      "EGirl Overload": "You must say \"uwu\" after giving any comm.",
+      "The Kia Special": "You must say \"uwu\" after giving any comm.",
       "What Is This, Iron?": "If you kill someone with a headshot, you must use Classic only for the rest of the round.",
       "I Didn't Need That Anyway": "Disable your crosshair.",
       "What The Heck Is Going On": "Disable your HUD, and change your handedness. (General -> Other -> Hide User Interface In Game, and General -> Other -> First Person Handedness)",
@@ -35,11 +35,14 @@
       "The Zoo": "You can only communicate using animal noises.",
       "KTANE Moment": "You can only communicate using a phonetic alphabet (i.e. spell out words using the first letters of random words you're saying - like for cat, I would say \"Charlie Australia Tambourine\").",
       "The Pleb Special": "Everyone mute on Discord. (This is a joke, please re-roll if you get this LOL)",
+      "The PS/Mari Special": "You are only allowed to show up on site after the round is over. (This is another joke, please re-roll if you get this LOL)",
       "OoOoOoOoOo": "Only dead players may speak. (Preferably spookily.)",
       "Please Help Me": "Everyone must do their best imitation of a VALORANT accent. (On god, actually braindead, no cap, literally trolling, in an upwards inflection)",
       "You're Welcome": "You cannot crouch spray this round. If you do accidentally, look down and hang your head in shame for the rest of the round (you cannot shoot).",
       "WHAT IS GOING ON???": "Join the other team's VC for this round.",
-      "The Vince Special": "You must attempt to convince your teammates to do the worst plays imaginable. 1HP and fighting long? Go for the knife!"
+      "The Vince Special": "You must attempt to convince your teammates to do the worst plays imaginable. 1HP and fighting long? Go for the knife!",
+      "The Yoshi Special": "You must give all comms in the form of singing lyrics from The Weeknd. (If you don't know any, just keep saying \"I can't feel my face\")",
+      "The Crim Special": "You are only allowed to communicate using sus / out of pocket shit this round."
     },
     "atk": {
       "Literal Cancer": "Everyone must buy all utility they can. Then, you must pick a site to rush, then spam every single piece of utility you have (ultimates optional) onto it and take it.",
@@ -69,7 +72,7 @@
       "The Floor is Lava": "You must be constantly jumping if you're not standing on top of an object or planting. (This means you can only stop jumping while on top of a crate, a box, a counter, a railing, etc.)",
       "The Ethan Special": "If someone on your team dies, everyone must stop shooting for the next 5 seconds (no refragging/trading). In addition, you cannot entry (enter a site) unless you are walking.",
       "Foot Fetish": "You must kill all enemies with leg shots only. If you kill one with a non-leg shot by accident, drop your guns and use knife only for the rest of the round.",
-      "LEEROY JENKINS": "You must run it down. Additionally, if you see any vision-obstructing utility (smokes, walls, etc), you must run through it.",
+      "LEEROY JENKINS": "You must run it down, and when rushing, yell \"LEEROY JENKINS\". Additionally, if you see any vision-obstructing utility (smokes, walls, etc), you must run through it.",
       "I Only Need One": "You can only use one clip of your gun (NO RELOADING). Once it's spent, you cannot fire any more guns for the rest of the round.",
       "Strict Discipline": "Your top frag is now The Czar. You must ask (AND RECEIVE) permission from them before reloading, changing weapons, or using an ability. If you forget, you can only use the Classic for the rest of the round. (If you're the czar, I suggest saying no.)",
       "Journey of Self Discovery": "Everyone on your team must lurk (no playing together).",
@@ -82,10 +85,12 @@
       "My Turn": "Pick a site, then have all 5 players wait outside of it. Then, send in one player at a time. The next person can only go when they die. (Yes, this includes after planting.)",
       "The Advance Guard": "Choose a player. This player must remain alone in spawn with the spike until you have control of a site. Then, once the player leaves spawn, the teammates cannot leave the site (unless they die).",
       "The Flaw Special": "Your whole team must buy stingers, and rush any site. ADSing is not allowed.",
-      "Karmine Corp Moment": "You cannot plant until 10 seconds remain in the round. (You also can't win by killing the last defender, so... watch out!)"
+      "Karmine Corp Moment": "You cannot plant until 10 seconds remain in the round. (You also can't win by killing the last defender, so... watch out!)",
+      "Where Am I": "The person holding the spike must have their eyes closed / turn off their monitor. You cannot leave the spike in spawn."
     },
     "def": {
-      "Uhhh... I got this, don't worry": "Your whole team must sit in spawn, then send one player at a time. The next person can only go when they die."
+      "Uhhh... I got this, don't worry": "Your whole team must sit in spawn, then send one player at a time. The next person can only go when they die.",
+      "The Turret": "You may only shoot when you're standing on a spray (press T)."
     }
   },
   "hard": {
