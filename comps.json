@@ -1,6 +1,7 @@
 {
   "Sight Is Illegal": "All controllers.",
-  "You Are Not Pushing": "All sentinels + Astra.",
+  "You Are Not Pushing": "All sentinels.",
+  "You Are Not Pushing II": "4 Sentinels + Astra.",
   "Run It Down": "All duelists.",
   "Information Acquired": "Sova, Fade, Gekko, Skye, KAY/O",
   "Sight Is Illegal II": "Breach, Skye, KAY/O, Yoru, Phoenix",
@@ -19,5 +20,8 @@
   "The Zoo": "Skye, Fade, Gekko, Sova, Killjoy",
   "Just Made A New Account": "Sova, Jett, Sage, Brim, Phoenix",
   "Six Point Ults (Formerly)": "Phoenix, Jett, Cypher, Reyna, Skye",
-  "Need Healing": "Phoenix, Skye, Sage, Reyna, KAY/O"
+  "Need Healing": "Phoenix, Skye, Sage, Reyna, KAY/O",
+  "You Have No HP": "Killjoy, Iso, Viper, Astra, Fade",
+  "Death By Ultimates": "Brim, Sova, Deadlock, Iso, Raze",
+  "Who Needs Guns When You Have Ult": "Jett, Chamber, Neon, Raze, Brim"
 }
