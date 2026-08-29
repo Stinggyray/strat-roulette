@@ -5,13 +5,16 @@
       "It's High Noon": "Your whole team must use sheriffs, and once you shoot a single bullet, you must spam click until the whole mag is expended.",
       "Precise Gunplay": "Your entire team must buy Frenzys and keep running the entire round (except to plant).",
       "Secret Mission": "Your entire team must buy Ghosts, and give no comms the whole round (no pings, talking on Discord, or in game communication). In addition, you cannot run - only walk or crouch.",
-      "Wild Wild West": "Your entire team must buy Bandits and keep running the entire round (except to plant). Also, yell \"YEEHAW\" whenever you enter any site."
+      "Wild Wild West": "Your entire team must buy Bandits and keep running the entire round (except to plant). Also, yell \"YEEHAW\" whenever you enter any site.",
+      "Different Guns": "Your whole team must buy unique guns (no 2 players can have the same gun), and cannot use any other guns during the round. Additionally, you cannot use utility."
     },
     "def": {
-      "Deranged": "Your whole team must use Shorty. You can't pick up any other guns."
+      "Deranged": "Your whole team must use Shorty. You can't pick up any other guns.",
+      "Full House": "Your team must buy 2 Frenzys and 3 Shortys, with the 3 Shortys on one site and 2 Frenzys on the other site. You cannot pick up any other guns. (If this is a three site map, reroll.)"
     },
     "atk": {
-      "Mobile Turret": "Your entire team must stay right next to each other (in a blob) and buy Frenzys."
+      "Mobile Turret": "Your entire team must stay right next to each other (in a blob) and buy Frenzys.",
+      "The Family Heirloom": "One player buys a sheriff, everyone else buys regen shield. Only the player who is holding the designated sheriff is allowed to shoot."
     }
   },
   "easy": {
@@ -41,7 +44,10 @@
       "The 10 Man Special": "You must attempt to convince your teammates to do the worst plays imaginable. 1HP and fighting long? Go for the knife!",
       "That's True": "You may only say \"That's true\" or \"I agree\" this round.",
       "The Haych+Caleb Special": "All comms this round must be in the form of bickering with each other.",
-      "The Twon Special": "All comms this round must be in the format \"If we are just going to _____ then I don't want to play\""
+      "The Twon Special": "All comms this round must be in the format \"If we are just going to _____ then I don't want to play\"",
+      "A Little Off": "Multiply your sensitivity by 1.2. (No changing DPI.)",
+      "Inspireational": "If you die during this round, you need to write a long personal hate message towards whoever killed you and post it in chat.",
+      "Perfectly Balanced": "Every time you have a man advantage, you must throw to make it equal. If you are down, you must push to get a kill."
     },
     "atk": {
       "Literal Cancer": "Everyone must buy all utility they can. Then, you must pick a site to rush, then spam every single piece of utility you have (ultimates optional) onto it and take it.",
@@ -57,7 +63,8 @@
     "all": {
       "Social Anxiety": "Once you leave spawn, you may not have any of your teammates in your direct line of sight (you can only look at them through walls).",
       "Precise Gunplay II": "You cannot stop running the entire round (except while planting or defusing).",
-      "Oversensitive": "Multiply your sensitivity by 2. (No changing DPI.)",
+      "Oversensitive": "Multiply your sensitivity by 4. (No changing DPI.)",
+      "HE'S GERIATRIC!!!": "Divide your sensitivity by 2. (No changing DPI.)",
       "The 5K Fine": "Once you get a kill, you cannot shoot again until you t-bag the body. (You need to crouch on it at least 5 times.)",
       "Glucose Guardian": "One player must buy all the guns for your team (no requesting). Nobody else can buy any guns (abilities are fine though.)",
       "Ammo Depot": "Your current bottom frag is the only person who can reload any gun this round. (If you reload by accident, immediately drop your gun and you can't pick it back up.)",
@@ -113,12 +120,15 @@
       "The Conga Line": "You must all go around in a conga line this round. Additionally, only the first person in the conga line can shoot a gun (everyone else can shoot classics).",
       "Ambidextrous": "Swap your mouse and keyboard hands. (You probably should move the mouse to the other side of your keyboard.)",
       "Hacked": "Swap your left/right (usually A and D) keybinds, and your forward/backward (W and S) keybinds. You cannot use other keys to move. Additionally, you can only shoot while moving.",
-      "I Didn't Need That Anyway II": "Disable your crosshair.\nMultiply your sensitivity by 4 (no changing DPI).\nYou cannot ADS or scope."
+      "I Didn't Need That Anyway II": "Disable your crosshair.\nMultiply your sensitivity by 4 (no changing DPI).\nYou cannot ADS or scope.",
+      "The Xixi Special II": "Cap your FPS at 20. You must only use the Ares this round (no other guns).",
+      "The Sting Special": "You must buy a guardian and use no util. You can only shoot people if they aren't looking at you. You must not make ANY noise (except shooting)."
     },
     "atk": {
     },
     "def": {
-      "The Ultimate Gamble": "Your team must pick a single site, then all sit on that site with Bucky only. You can't use any other guns (including pistols) this round. (You can rotate if they don't go there. Good luck though.)"
+      "The Ultimate Gamble": "Your team must pick a single site, then all sit on that site with Bucky only. You can't use any other guns (including pistols) this round. (You can rotate if they don't go there. Good luck though.)",
+      "Turret Impression": "All 5 players must pick a spot and then not move from it. They must do a Killjoy turret impression - when enemies are spotted, shoot bursts of 3 bullets at a time."
     }
   }
 }
