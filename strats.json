@@ -80,7 +80,6 @@
       "LEEROY JENKINS": "You must run it down, and when rushing, yell \"LEEROY JENKINS\". Additionally, if you see any vision-obstructing utility (smokes, walls, etc), you must run through it.",
       "I Only Need One": "You can only use one clip of your gun (NO RELOADING). Once it's spent, you cannot fire any more guns for the rest of the round.",
       "Strict Discipline": "Your top frag is now The Czar. You must ask (AND RECEIVE) permission from them before reloading, changing weapons, or using an ability. If you forget, you can only use your knife for the rest of the round. (If you're the czar, I suggest saying no.)",
-      "The NAVI Special": "Everyone on your team must lurk (no playing together). Welcome back League of Legends",
       "The Xixi Special": "Cap your FPS at 20.",
       "The Ender Special": "Pick a player (must be Ender if he is on your team). They must be the last one alive - if they die, whole team must knife only for the rest of the round. Once the round ends, everyone must say \"that's why they call him Ender\".",
       "The \"Good Habits\"": "You must jiggle peek to clear ALL angles.",
@@ -99,7 +98,8 @@
       "The Americas Special": "Your whole team must buy stingers, and rush any site. ADSing is not allowed.",
       "YEW FACKIN MELONS": "You cannot plant until 10 seconds remain in the round. (You also can't win by killing the last defender, so... watch out!)",
       "Where Am I": "The person holding the spike must have their eyes closed / turn off their monitor. You cannot leave the spike in spawn.",
-      "The Rage Hit": "The spike must be planted before the timer hits 1:15. If it isn't, everyone must knife only for the rest of the round."
+      "The Rage Hit": "The spike must be planted before the timer hits 1:15. If it isn't, everyone must knife only for the rest of the round.",
+      "The NAVI Special": "Everyone on your team must lurk (no playing together). Welcome back League of Legends"
     },
     "def": {
       "Uhhh... I got this, don't worry": "Your whole team must sit in spawn, then send one player at a time. The next person can only go when they die.",
@@ -122,9 +122,10 @@
       "Hacked": "Swap your left/right (usually A and D) keybinds, and your forward/backward (W and S) keybinds. You cannot use other keys to move. Additionally, you can only shoot while moving.",
       "I Didn't Need That Anyway II": "Disable your crosshair.\nMultiply your sensitivity by 4 (no changing DPI).\nYou cannot ADS or scope.",
       "The Xixi Special II": "Cap your FPS at 20. You must only use the Ares this round (no other guns).",
-      "The Sting Special": "You must buy a guardian and use no util. You can only shoot people if they aren't looking at you. You must not make ANY noise (except shooting)."
+      "The Flying Scoutsman": "Marshal only. You must jump before each shot (though you are allowed to land before shooting it)."
     },
     "atk": {
+      "The Sting Special": "You must buy a guardian and use no util. You can only shoot people if they aren't looking at you. You must not make ANY noise (except shooting)."
     },
     "def": {
       "The Ultimate Gamble": "Your team must pick a single site, then all sit on that site with Bucky only. You can't use any other guns (including pistols) this round. (You can rotate if they don't go there. Good luck though.)",
